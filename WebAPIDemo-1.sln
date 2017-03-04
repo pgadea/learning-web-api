@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{C1FA958B-9156-498D-83CB-868BB60CC957}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{B251DE58-9502-434D-A1F6-6015EDDDB3F6}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "WebAPIDemo-1", "src\WebAPIDemo-1\WebAPIDemo-1.xproj", "{CF72559F-CE38-497E-9DD9-735213A59FC1}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "WebAPITest.Data", "src\WebAPITest.Data\WebAPITest.Data.xproj", "{1C148594-7B76-4602-B0E3-20890B350D1D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CF72559F-CE38-497E-9DD9-735213A59FC1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF72559F-CE38-497E-9DD9-735213A59FC1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF72559F-CE38-497E-9DD9-735213A59FC1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF72559F-CE38-497E-9DD9-735213A59FC1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C148594-7B76-4602-B0E3-20890B350D1D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C148594-7B76-4602-B0E3-20890B350D1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C148594-7B76-4602-B0E3-20890B350D1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C148594-7B76-4602-B0E3-20890B350D1D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{CF72559F-CE38-497E-9DD9-735213A59FC1} = {C1FA958B-9156-498D-83CB-868BB60CC957}
+		{1C148594-7B76-4602-B0E3-20890B350D1D} = {C1FA958B-9156-498D-83CB-868BB60CC957}
+	EndGlobalSection
+EndGlobal
